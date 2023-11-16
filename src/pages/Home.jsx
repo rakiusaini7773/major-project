@@ -10,10 +10,9 @@ import TimelineSection from "../components/core/homepages/TimeLineSection";
 import LearningLanguageSection from "../components/core/homepages/LearingLanguageSection";
 import InstructorSection from "../components/core/homepages/InstructorSection";
 import ReviewSlide from "../components/common/ReviewSlider";
-// import Footer from "../components/common/Footer";
-import footer from '../components/common/Footer'
 import ExplorePage from "../components/core/homepages/ExplorePage";
-import Footer from "../components/common/Footer";
+import Footer from "../components/common/Footer"
+
 
 
 const  Home = () => {
@@ -198,7 +197,7 @@ const  Home = () => {
       </div>
 
       {/* header  */}
-        <footer/>
+        <Footer/>
       
     </div>
   );
